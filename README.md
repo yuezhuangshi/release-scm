@@ -31,3 +31,9 @@ mvn release:perform
 ```shell script
 release:rollback
 ```
+
+### 仅更改版本
+更改 pom 的版本
+```shell script
+release:update-versions
+```

@@ -22,13 +22,13 @@
     <!--Maven 通过 SCM 插件对版本管理软件进行构建操作，通过 distributionManagement 发布到对应的网络目录下-->
     <!--抽象了源码管理系统的配置，如 GIT、SVN 等，配置后可通过命令快速替换 SNAPSHOT 到 RELEASE，并在 Git 中打 tag-->
     <scm>
-<!--        &lt;!&ndash;公开可在浏览器访问的 GIT 项目地址&ndash;&gt;-->
-<!--        <url>https://github.com/yuezhuangshi/release-scm</url>-->
-<!--        &lt;!&ndash;具备读权限供Maven寻找源代码&ndash;&gt;-->
-<!--        <connection>scm:git:git://github.com:yuezhuangshi/release-scm.git</connection>-->
+        <!--公开可在浏览器访问的 GIT 项目地址-->
+        <url>https://github.com/yuezhuangshi/release-scm</url>
+        <!--具备读权限供Maven寻找源代码-->
+        <connection>scm:git:git://github.com:yuezhuangshi/release-scm.git</connection>
         <!--具备写权限供操作源代码-->
         <developerConnection>scm:git:git@github.com:yuezhuangshi/release-scm.git</developerConnection>
-<!--        <tag>v1.0</tag>-->
+        <tag>v1.0</tag>
     </scm>
 
     <build>

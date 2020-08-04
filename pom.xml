@@ -25,9 +25,9 @@
         <!--公开可在浏览器访问的 GIT 项目地址-->
         <url>https://github.com/yuezhuangshi/release-scm</url>
         <!--具备读权限供Maven寻找源代码-->
-        <connection>scm:git:ssh://git@github.com:yuezhuangshi/release-scm.git</connection>
+        <connection>scm:git:git@github.com:yuezhuangshi/release-scm.git</connection>
         <!--具备写权限供操作源代码-->
-        <developerConnection>scm:git:ssh://git@github.com:yuezhuangshi/release-scm.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:yuezhuangshi/release-scm.git</developerConnection>
         <tag>v1.0</tag>
     </scm>
 

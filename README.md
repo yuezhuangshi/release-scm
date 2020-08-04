@@ -16,7 +16,8 @@ mvn release:clean
 这里一共提交了两次代码,第一次是 release 版本,第二次是 snapshot 版本
 ```shell script
 mvn release:prepare
-mvn release:prepare -DdryRun=true
+mvn release:prepare -DdryRun=true // 模拟发布
+mvn -B release:prepare // 非交互式发布
 ```
 
 ### 发布

@@ -4,7 +4,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>release-scm</artifactId>
-    <version>1.2</version>
+    <version>1.3-SNAPSHOT</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -28,7 +28,7 @@
         <connection>scm:git:git://github.com:yuezhuangshi/release-scm.git</connection>
         <!--具备写权限供操作源代码-->
         <developerConnection>scm:git:git@github.com:yuezhuangshi/release-scm.git</developerConnection>
-        <tag>v1.2</tag>
+        <tag>v1.0</tag>
     </scm>
 
     <build>
